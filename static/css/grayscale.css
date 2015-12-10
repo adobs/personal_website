@@ -327,15 +327,14 @@ a:focus {
     /*margin-top: 30px;*/
 }
 
-.project-img{
-        max-width: 400px;  
-        max-height: 200px; 
+/*.project-img{*/
+        /*max-width: 400px;  */
+        /*max-height: 200px; */
 
-}
+/*}*/
 
 #adjective-map, #sankey{
-    margin-left:10px;
-    margin-right: 10px;
+    vertical-align: center;
 }
 
 #technology-container{
