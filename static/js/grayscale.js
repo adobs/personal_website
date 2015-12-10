@@ -32,10 +32,3 @@ $('.navbar-collapse ul li a').click(function() {
 var bio2Width = $("#bio-2").width();
 $("#bio").width(bio2Width-100);
 
-var technologyWidth = $("#technologies-header").width();
-$("#languages").width(technologyWidth/3);
-$("#frameworks").width(technologyWidth/3);
-$("#industry").width(technologyWidth/3);
-
-var captionWidth = ($("#project").width() - $("#adjective-gif").width()-20);
-$("#adjective-map").width(500);

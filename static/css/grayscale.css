@@ -25,11 +25,13 @@ h6 {
     letter-spacing: 1px;
 }
 
-p, td, .caption{
+p, td, .caption, .tech-list{
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
+
+
 
 .technologies{
     font-size: 18px;
@@ -170,16 +172,43 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 500px 0;
+    padding: 200px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/dobs.png) no-repeat top center scroll;
-    background-color: #000;
+    /*background: url(/static/img/dobs.png) no-repeat top center scroll;*/
+/*    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
+
+#dobs{
+    width: 100%;
+    height: auto;
+    /*z-index: -1;*/
+    position: relative;
+}
+
+#intro-div{
+    z-index: 0;
+    position: relative;
+}
+
+.brand-heading{
+    position: relative;
+    z-index: 1;
+}
+
+.intro-text{
+    position: relative;
+}
+
+#dobs-img{
+    z-index: -1;
+    position: relative;
+}
+
 
 .intro .intro-body {
     display: table-cell;
@@ -304,17 +333,31 @@ a:focus {
     -o-background-size: cover;*/
 }
 
-.alexandra-section {
+/*.alexandra-section {
     width: 100%;
     height: 100%;
-    /*padding: 50px 0;*/
+    padding: 50px 0;
     color: #fff;
     background: url(/static/img/alexandra_graffiti2.png) no-repeat center center scroll;
     background-color: #000;
-/*    -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;*/
+    -o-background-size: cover;
+}*/
+
+.tech-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.tech-head{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#alexandra{
+    text-align: center;
 }
 
 .col-xs-15,
@@ -362,18 +405,11 @@ a:focus {
 
 /*}*/
 
-#adjective-map, #sankey{
+/*#adjective-map, #sankey{
     vertical-align: center;
+    width: 100%;
 }
-
-#technology-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    algin-items: center;
-    align-content: center;  
-}
+*/
 
 #project{
     background: #000;
