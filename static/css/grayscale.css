@@ -51,8 +51,7 @@ thead{
 }
 
 table{
-    /*width: 100%;*/
-    float: left;
+    width: 100%;
     table-layout: fixed;
     padding: 50px 0;
     color: #fff;
