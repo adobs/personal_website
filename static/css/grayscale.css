@@ -423,8 +423,8 @@ a:focus {
     color: #fff;
 }
 
-.red{
-    color: red;
+.highlight{
+    /*color: grey;*/
     font-weight: 900;
 }
 
